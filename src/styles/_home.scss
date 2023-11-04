@@ -1,0 +1,33 @@
+
+
+.home__nearby,
+.home__anywhere,
+.home__discover,
+.home__host {
+    padding: 0 80px;
+    margin-top: 60px;
+
+    @media screen and (max-width: $bp-large1) {
+        padding: 0 60px;
+    }
+
+    @media screen and (max-width: $bp-medium1) {
+        padding: 0 40px;
+    }
+
+    @media screen and (max-width: $bp-small1) {
+        padding: 0 20px;
+    }
+
+    @media screen and (max-width: $bp-small2) {
+        margin-top: 30px;
+    }
+    
+    > h1 {
+        padding-bottom: 16px;
+
+        @media screen and (max-width: $bp-small2) {
+            font-size: 25px;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+// Break Points
+$bp-large1 : 1200px;
+$bp-large2 : 992px;
+$bp-large3 : 960px;
+$bp-medium1 : 768px;
+$bp-small1 : 576px;
+$bp-small2 : 424px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import './home';
+@import './header';
+@import './banner';
+@import './search';
+@import './card';
+@import './footer';
+@import './searchpage';
+@import './searchresult';
+@import './nearby';
+@import './nearbycard';
+@import './liveanywhere';
+@import './discoverplaces';
+@import './hostbanner';
