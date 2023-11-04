@@ -11,7 +11,7 @@ const Home = () => {
             <Banner />
 
             <div className="home__nearby">
-                <h1>Explore Nearby</h1>
+                <h1>Explore By Activity</h1>
                 <NearBy />
             </div>
 

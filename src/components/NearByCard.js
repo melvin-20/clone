@@ -6,7 +6,7 @@ const NearByCard = ({ img, name, distHr }) => {
             <img src={img} alt={name}/>
             <div className="nearby-card__info">
                 <h3>{name}</h3>
-                <p>{distHr}-hour drive</p>
+                
             </div>
         </div>
     )
