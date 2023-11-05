@@ -11,7 +11,7 @@ const HostBanner = () => {
             <div className="hostBanner__info">
                 <h1>Become a Host</h1>
                 <h3>
-                    Earn income by opportunities by sharing your space  with creatives.
+                    Earn income by sharing your space with creatives
                 </h3>
                 <Button 
                     variant='contained'>Learn More

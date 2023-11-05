@@ -8,18 +8,7 @@ import HostBanner from '../components/HostBanner'
 const Home = () => {
     return (
         <div className="home">
-            <Banner />
-
-            <div className="home__nearby">
-                <h1>Explore By Activity</h1>
-                <NearBy />
-            </div>
-
-            <div className="home__anywhere">
-                <h1>Book Anywhere</h1>
-                <LiveAnywhere />
-            </div>
-
+           
             <div className="home__host">
                 <HostBanner />
             </div>

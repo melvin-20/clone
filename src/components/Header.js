@@ -8,7 +8,7 @@ import { Avatar, Button } from '@material-ui/core';
 const Header = () => {
     return (
         <div className="header">
-            <Link to='/' className="header__logo">
+            <Link to='/' className="">
                 
             </Link>
 
@@ -20,11 +20,9 @@ const Header = () => {
             </div>
 
             <div className="header__right">
-                <Link to='/signup' className="header__button">
-                    <Button>Sign Up</Button>
-                </Link>
+                
                 <Link to='/login' className="header__button">
-                    <Button>Login</Button>
+                    <Button>Book a Space</Button>
                 </Link>
                 <Link to='/host' className="header__button">
                     <Button>List Your Space</Button>

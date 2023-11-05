@@ -5,7 +5,7 @@ const NearBy = () => {
     return (
         <div className="near-by">
             <NearByCard
-                img="https://a0.muscache.com/im/pictures/be4d3ba5-08d7-4afe-95a7-f2da6453886a.jpg?im_q=medq&im_w=240"
+                img="C:\\Users\\rhoda\\Downloads\\airbnb-clone-master\\src\\images\\property-02_1_240x240.jpg"
                 name="Film shoot"
                 
             />
